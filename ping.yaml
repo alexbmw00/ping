@@ -1,4 +1,7 @@
-- hosts: all
-- name: ping all hosts
+- name: Hello World Sample
+  hosts: all
   tasks:
+    - name: Hello Message
     - action: ping
+      
+      
